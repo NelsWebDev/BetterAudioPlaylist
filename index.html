@@ -16,25 +16,26 @@
             color:blue;
         }
     </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
 </head>
 <body>
     <p>Demo Music From <a href="http://incompetech.com">incompetech.com</a></p>
-    <audio src="" controls id="audioPlayer" >
+    <audio src="" controls id="audioPlayer">
         Sorry, your browser doesn't support html5!
     </audio>
     <ul id="playlist">
         <li><a href="Exit%20the%20Premises.mp3">Exit the Premises</a></li>
         <li><a href="Severe%20Tire%20Damage.mp3">Severe Tire Damage</a></li>
         <li><a href="Broken%20Reality.mp3">Broken Reality</a></li>
-        
     </ul>
+    
     <a href="#" onclick="playlist.prevTrack();">Prev Track</a>
     <a href="#" onclick="playlist.nextTrack();">Next Track</a>
     <a href="#" onclick="playlist.toggleShuffle();">Toggle Shuffle</a>
     <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script src="audioPlayer.js"></script>
     <script>
-        
+
         /*
     Default constructor configuration:
         autoplay: false,
@@ -54,7 +55,6 @@
             shuffle: true
         };
         var playlist = new AudioPlaylist();
-        
     </script>
 </body>
 </html>
